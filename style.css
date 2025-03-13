@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(44, 44, 44);
+}
+
+.number{
+    border: black solid 2px;
+    font-size: 2em;
+    background-color: rgb(144, 223, 203);
+    border-radius: 8px;
+    width: 93%;    
+    height: 80px;
+    box-sizing: border-box;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#first_number{
+    margin-top: 22px;
+}
+
+#calculator{
+    border: rgb(63, 99, 183) solid 3px;
+    background-color: rgb(51, 80, 148);
+    border-radius: 10px;
+    width: 600px;
+    height: 500px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#operation{
+    border: black solid 2px;
+    font-size: 3em;
+    width: 100px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 8px;
+    background-color: rgb(134, 211, 232);
+}
+
+.control{
+    border-radius: 10px;
+    font-size: 2.5em;
+    background-color: aliceblue;
+    padding: 8px;
+    cursor: pointer;
+}
+
+#controls{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#answer_box{
+    border: black solid 2px;
+    border-radius: 10px;
+    background-color: rgb(144, 223, 203);
+    border-radius: 8px;
+    width: 93%;    
+    height: 80px;
+    box-sizing: border-box;
+    margin-top: 22px;
+    padding-left: 12px;
+    display: flex;
+    align-content: center;
+}
+
+#answer{
+    font-size: 2em;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#secret{
+    opacity: 0.2;
+    height: 70px;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
